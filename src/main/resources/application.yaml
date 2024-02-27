@@ -1,0 +1,8 @@
+spring:
+  messages:
+    basename: messages/messages
+  sql:
+    init:
+      mode: always
+auth:
+  otp: http://127.0.0.1:8522
